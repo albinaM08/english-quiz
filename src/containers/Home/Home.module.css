@@ -1,0 +1,44 @@
+.Home {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_text {
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.banner {
+    height: 70%;
+    max-width: 1440px;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+}
+
+.banner_container {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner_wrapper {
+    max-width: 600px;
+    text-align: center;
+    padding: 1em;
+}
+
+.banner_header {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}

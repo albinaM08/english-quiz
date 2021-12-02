@@ -1,22 +1,21 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
-import App from './App'
-import configureStore from './store'
-import { Provider } from 'react-redux'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals'
 
-const store = configureStore()
+import './index.css'
+import App from './App'
+import Navbar from './containers/Navbar/Navbar'
 
 ReactDOM.render(
-  <Provider store={store}>
-    <BrowserRouter>
+  <BrowserRouter>
+    <div>
+      <Navbar/>
       <Switch>
         <Route exact path="/" component={App} />
       </Switch>
-    </BrowserRouter>
-  </Provider>,
+    </div>
+  </BrowserRouter>,
   document.getElementById('root'),
 )
 
