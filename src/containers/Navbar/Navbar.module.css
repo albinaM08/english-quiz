@@ -22,4 +22,11 @@
     font-size: 20px;
     font-weight: 600;
     color: #bfbfbf;
+    cursor: pointer;
+}
+
+.lives {
+    position: fixed;
+    right: 10vw;
+    font-size: 2em;
 }

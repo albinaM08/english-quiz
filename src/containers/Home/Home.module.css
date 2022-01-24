@@ -25,15 +25,16 @@
 }
 
 .banner_container {
-    height: 30%;
+    height: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .banner_wrapper {
     max-width: 600px;
     text-align: center;
-    padding: 1em;
+    margin: 1em 10em;
 }
 
 .banner_header {
@@ -41,4 +42,8 @@
     font-size: 23px;
     line-height: 1.5;
     letter-spacing: 1px;
+}
+
+.banner_content {
+    display: flex;
 }

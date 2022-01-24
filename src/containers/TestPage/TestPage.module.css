@@ -1,0 +1,25 @@
+.TestPage {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_text {
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.main {
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

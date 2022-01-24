@@ -8,3 +8,7 @@
 yarn install
 yarn start
 ```
+3. Run json server in another terminal
+```shell
+npx json-server db.json
+```

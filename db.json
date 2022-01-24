@@ -1,0 +1,354 @@
+{
+  "tests": [
+    {
+      "id": 1,
+      "level": "ease",
+      "theme": "grammar",
+      "title": "1. How often do you play tennis?",
+      "answers": [
+        "On Tuesday.",
+        "For two hours.",
+        "Almost every day."
+      ],
+      "expected": "Almost every day."
+    },
+    {
+      "id": 2,
+      "level": "ease",
+      "theme": "grammar",
+      "title": "2. Where do you usually eat lunch?",
+      "answers": [
+        "With Jane.",
+        "At 12:00.",
+        "In the cafeteria."
+      ],
+      "expected": "In the cafeteria."
+    },
+    {
+      "id": 3,
+      "level": "ease",
+      "theme": "grammar",
+      "title": "3. How long did you study last night?",
+      "answers": [
+        "In my room.",
+        "English.",
+        "For three hours."
+      ],
+      "expected": "For three hours."
+    },
+    {
+      "id": 4,
+      "level": "ease",
+      "theme": "grammar",
+      "title": "4. What is your busiest day of the week?",
+      "answers": [
+        "In the morning.",
+        "Tuesday.",
+        "Last week."
+      ],
+      "expected": "Tuesday."
+    },
+    {
+      "id": 5,
+      "level": "ease",
+      "theme": "grammar",
+      "title": "5. What kind of work do you do?",
+      "answers": [
+        "I work every day",
+        "I'm a piano teacher.",
+        "I worked for two hours."
+      ],
+      "expected": "I'm a piano teacher."
+    },
+    {
+      "id": 6,
+      "level": "medium",
+      "theme": "grammar",
+      "title": "1. That is ___ you are poor",
+      "answers": [
+        "why",
+        "that",
+        "which"
+      ],
+      "expected": "why"
+    },
+    {
+      "id": 7,
+      "level": "medium",
+      "theme": "grammar",
+      "title": "2. I heard him ___.",
+      "answers": [
+        "is singing",
+        "sing",
+        "has sung"
+      ],
+      "expected": "sing"
+    },
+    {
+      "id": 8,
+      "level": "medium",
+      "theme": "grammar",
+      "title": "3. He is ___ taller than you.",
+      "answers": [
+        "very",
+        "so",
+        "much"
+      ],
+      "expected": "much"
+    },
+    {
+      "id": 9,
+      "level": "medium",
+      "theme": "grammar",
+      "title": "4. Jane is ___ than her sister.",
+      "answers": [
+        "more tall",
+        "tall",
+        "taller"
+      ],
+      "expected": "taller"
+    },
+    {
+      "id": 10,
+      "level": "medium",
+      "theme": "grammar",
+      "title": "5. There are ___ books on my desk.",
+      "answers": [
+        "little",
+        "a little",
+        "a few"
+      ],
+      "expected": "a few"
+    },
+    {
+      "id": 11,
+      "level": "difficult",
+      "theme": "grammar",
+      "title": "1. As ___, he forgot to bring his notebook to school.",
+      "answers": [
+        "usual",
+        "usually"
+      ],
+      "expected": "usual"
+    },
+    {
+      "id": 12,
+      "level": "difficult",
+      "theme": "grammar",
+      "title": "2. He speaks neither English __ French.",
+      "answers": [
+        "or",
+        "nor"
+      ],
+      "expected": "nor"
+    },
+    {
+      "id": 13,
+      "level": "difficult",
+      "theme": "grammar",
+      "title": "3. ___ do you call that in English?",
+      "answers": [
+        "How",
+        "What"
+      ],
+      "expected": "What"
+    },
+    {
+      "id": 14,
+      "level": "difficult",
+      "theme": "grammar",
+      "title": "4. The teacher explained ___",
+      "answers": [
+        "the lesson to the student.",
+        "the student the lesson."
+      ],
+      "expected": "the lesson to the student."
+    },
+    {
+      "id": 15,
+      "level": "difficult",
+      "theme": "grammar",
+      "title": "5. He was charged ___ murder.",
+      "answers": [
+        "with",
+        "for"
+      ],
+      "expected": "with"
+    },
+    {
+      "id": 16,
+      "level": "ease",
+      "theme": "vocabulary",
+      "title": "1. He's from Brazil. He's ___.",
+      "answers": [
+        "Brazilish",
+        "Brazilian",
+        "Brazilese"
+      ],
+      "expected": "Brazilian"
+    },
+    {
+      "id": 17,
+      "level": "ease",
+      "theme": "vocabulary",
+      "title": "2. I'm from Colombia. I can speak ___.",
+      "answers": [
+        "Spanish",
+        "Colombian",
+        "Colombish"
+      ],
+      "expected": "Spanish"
+    },
+    {
+      "id": 18,
+      "level": "ease",
+      "theme": "vocabulary",
+      "title": "3. She's from Russia. She can speak ___.",
+      "answers": [
+        "Russia",
+        "Russy",
+        "Russian"
+      ],
+      "expected": "Russian"
+    },
+    {
+      "id": 19,
+      "level": "ease",
+      "theme": "vocabulary",
+      "title": "4. We're from Italy. We're ___.",
+      "answers": [
+        "Italien",
+        "Italian",
+        "Italiun"
+      ],
+      "expected": "Italian"
+    },
+    {
+      "id": 20,
+      "level": "ease",
+      "theme": "vocabulary",
+      "title": "5. Pablo is from Mexico. He's ___.",
+      "answers": [
+        "Spanish",
+        "Mexican",
+        "Mexian"
+      ],
+      "expected": "Mexican"
+    },
+    {
+      "id": 21,
+      "level": "medium",
+      "theme": "vocabulary",
+      "title": "1. John had an accident last night.",
+      "answers": [
+        "I'm sorry to hear that.",
+        "That's terrific!",
+        "He must be proud of it."
+      ],
+      "expected": "I'm sorry to hear that."
+    },
+    {
+      "id": 22,
+      "level": "medium",
+      "theme": "vocabulary",
+      "title": "2. Their plane should be here in no time.",
+      "answers": [
+        "Let's wait for them at the main lobby.",
+        "Let's come back tomorrow.",
+        "Let's see if they're at the lobby."
+      ],
+      "expected": "Let's wait for them at the main lobby."
+    },
+    {
+      "id": 23,
+      "level": "medium",
+      "theme": "vocabulary",
+      "title": "3. Can you tell me how to get to the post office?",
+      "answers": [
+        "It's in aisle C next to the dairy products.",
+        "Sorry, my office is not here.",
+        "Go to the end of this corridor and turn left."
+      ],
+      "expected": "Go to the end of this corridor and turn left."
+    },
+    {
+      "id": 24,
+      "level": "medium",
+      "theme": "vocabulary",
+      "title": "4. Give me a call when you get back from your trip.",
+      "answers": [
+        "I'm sorry to hear that.",
+        "I'll surely do that.",
+        "Why should you call me?"
+      ],
+      "expected": "I'll surely do that."
+    },
+    {
+      "id": 25,
+      "level": "medium",
+      "theme": "vocabulary",
+      "title": "5. The game ended in a tie.",
+      "answers": [
+        "What a bargain!",
+        "Who bought the tie?",
+        "How come?"
+      ],
+      "expected": "How come?"
+    },
+    {
+      "id": 26,
+      "level": "difficult",
+      "theme": "vocabulary",
+      "title": "1. Things are not as they ___.",
+      "answers": [
+        "seam",
+        "seem"
+      ],
+      "expected": "seem"
+    },
+    {
+      "id": 27,
+      "level": "difficult",
+      "theme": "vocabulary",
+      "title": "2. A type of corn is called ___.",
+      "answers": [
+        "maize",
+        "maze"
+      ],
+      "expected": "maize"
+    },
+    {
+      "id": 28,
+      "level": "difficult",
+      "theme": "vocabulary",
+      "title": "3. On the ___, he is a nice person.",
+      "answers": [
+        "whole",
+        "hole"
+      ],
+      "expected": "whole"
+    },
+    {
+      "id": 29,
+      "level": "difficult",
+      "theme": "vocabulary",
+      "title": "4. He ___ better but he did it anyway.",
+      "answers": [
+        "knew",
+        "new"
+      ],
+      "expected": "knew"
+    },
+    {
+      "id": 30,
+      "level": "difficult",
+      "theme": "vocabulary",
+      "title": "5. Always try to buy low and ___ high.",
+      "answers": [
+        "sell",
+        "cell"
+      ],
+      "expected": "sell"
+    }
+  ]
+}

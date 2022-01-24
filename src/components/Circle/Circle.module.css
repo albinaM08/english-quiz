@@ -1,0 +1,23 @@
+.circle {
+    height: 250px;
+    width: 250px;
+    background-color: #ffbf8d;
+    border-radius: 50%;
+    margin: auto 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.circle:hover {
+    font-size: 25px;
+    background-color: #faa86a;
+}
+
+.circle_text{
+    color: #f3f3f3;
+    font-weight: 900;
+}
