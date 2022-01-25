@@ -24,7 +24,7 @@ const Test = ({ title, answers, expected, nextTest }) => {
                         {answers.map((answ, index) => (
                             <Answer key={index}
                                 value={answ}
-                                correctAnswer={expected}
+                                expected={expected}
                                 setBgColor={setBgColor}
                                 nextTest={nextTest}
                                 isChosen={isChosen}

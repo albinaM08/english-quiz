@@ -8,10 +8,11 @@ import s from './Home.module.css'
 const Home = () => {
     const [theme, setTheme] = useState('')
     const [level, setLevel] = useState('')
-    const { setLives } = useContext(AppContext)
+    const { setLives, setCorrectAnswers } = useContext(AppContext)
 
     useEffect(() => {
         setLives(0)
+        setCorrectAnswers(1)
     }, [])
 
     return (
@@ -34,7 +35,7 @@ const Home = () => {
                                     </span>
                                     :
                                     <span className={s.banner_header}>
-                                        Find out which exam may be best for you. Take our quick, free online quiz.
+                                        Find out which theme may be best for you. Take our quick quiz game.
                                     </span>
                                 }
                             </div>
